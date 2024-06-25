@@ -1,0 +1,3 @@
+- Install module
+- Create a new invoice and choose a customer
+- In the chatter followers list, only the current user must be subscribed
