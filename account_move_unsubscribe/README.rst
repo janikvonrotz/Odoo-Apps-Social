@@ -8,7 +8,8 @@ Account Move Unsubscribe
 
 Unsubscribe all followers after account move post.
 
-For a detailed documentation have a look at https://www.odoo-wiki.org/.
+For a detailed documentation have a look at
+https://www.odoo-wiki.org/account_move_unbsubscribe.html
 
 Configuration
 ~~~~~~~~~~~~~
