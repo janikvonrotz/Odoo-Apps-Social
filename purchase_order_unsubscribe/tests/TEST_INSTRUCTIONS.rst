@@ -1,3 +1,3 @@
 - Open Purchase > Order > Requests for Quotations
 - Create a new RFQ and send it, the chatter box will have only one follower - the current user (buyer)
-- To have no followers in the chatter, open Settings > Technical > System Parameters and set a parameter with key mail.unsubscribe_all and value Tru
+- To have no followers in the chatter, open Settings > Technical > System Parameters and set a parameter with key mail.unsubscribe_all and value True
