@@ -1,9 +1,9 @@
+import ast
 import logging
 
 from odoo import models
 
 _logger = logging.getLogger(__name__)
-import ast
 
 
 class AccountMove(models.Model):
