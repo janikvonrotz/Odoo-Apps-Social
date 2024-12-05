@@ -41,7 +41,7 @@ class MailThread(models.AbstractModel):
 
         if self._name != "mail.channel":
             self._unsubscribe_followers()
-            _self = self.with_context(
+            self = self.with_context(
                 mail_post_autofollow=mail_post_autofollow,
                 mail_create_nosubscribe=mail_create_nosubscribe,
             )
