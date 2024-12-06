@@ -1,7 +1,7 @@
 {
     "name": "Mail Template Subscribe",
     "summary": """
-        When sending a mail subscribe contacts defined in template domain.
+        When sending a mail subscribe matching template subscribe domain.
     """,
     "author": "Mint System GmbH, Odoo Community Association (OCA)",
     "website": "https://www.mint-system.ch",

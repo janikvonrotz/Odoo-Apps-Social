@@ -6,7 +6,7 @@
 Mail Template Subscribe
 =======================
 
-When sending a mail subscribe contacts defined in template domain.
+When sending a mail subscribe matching template subscribe domain.
 
 For a detailed documentation have a look at https://www.odoo-wiki.org/mail-template-subscribe.html
 

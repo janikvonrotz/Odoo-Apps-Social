@@ -1,6 +1,7 @@
 import logging
 
 from odoo import fields, models
+from odoo.tools.safe_eval import safe_eval
 
 _logger = logging.getLogger(__name__)
 
@@ -13,3 +14,11 @@ class MailTemplate(models.Model):
         default="[('id', '=', user.partner_id.id)]",
         help="Contacts machting this domain will be subscribed to the mail document.",
     )
+
+    def get_subscriber_ids(self):
+        eval_context = {
+            "user": self.env.user,
+        }
+        return self.env["res.partner"].search(
+            safe_eval(self.subscriber_domain, eval_context)
+        )
