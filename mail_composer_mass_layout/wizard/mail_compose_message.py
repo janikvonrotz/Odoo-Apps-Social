@@ -37,10 +37,9 @@ class MailComposer(models.TransientModel):
 
             # Render template with layout
             body = model.env["ir.qweb"]._render(
-                self.email_layout_xmlid,
+                self.env.ref("mail.mail_notification_light").id,
                 template_ctx,
                 minimal_qcontext=True,
-                raise_if_not_found=False,
             )
 
             # Update with new body

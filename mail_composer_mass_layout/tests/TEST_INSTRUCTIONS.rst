@@ -1,0 +1,6 @@
+- Create a mail template "Ping" for "res.partner"
+- Set "ping" as subject and contact
+- Use "{{ object.id }}" for the To-field
+- Setup as context menu and refresh the browser
+- Show contact list, select multiple contacts and send the ping mail
+- Check in the mail catcher if the mails have the default layout
